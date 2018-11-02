@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>诺太医药科技</title>
+	<link rel="stylesheet" href="css/home.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+	<div class="home-nav">
+		<div class="nav-top">
+			<div class="nav-titlebox">
+				<div class="nav-titlebox-left">欢迎来到诺太医药科技官网</div>
+				<div class="nav-titlebox-right">
+					<span class="language">ENGLISH</span>
+					<span class="caret" onclick="languageSwitch()"></span>
+					<span class="glyphicon glyphicon-search" onclick="inputSwitch()"></span>
+				</div>
+				<div class="switch-model">
+					<div class="panel panel-default">
+						<div class="panel-body">
+							是否切换为<span class="language-q">中文</span>
+							<button class="btn btn-primary" onclick="languageYes()">是</button>
+							<button class="btn btn-danger" onclick="languageNO()">否</button>
+						</div>
+					</div>
+				</div>
+				<div class="input-switch">
+					<input type="text" class="form-control" name="">
+				</div>
+			</div>
+		</div>
+		<div class="nav-bar">
+			<div class="logo">
+				<img src="images/logo.png" alt="">
+			</div>
+			<div class="nav-tab">
+				<ul>
+					<li>
+						<a href="./index.html">首页</a>
+					</li>
+					<li>
+						<a href="./about.html">关于诺太</a>
+						<ul>
+							<li><a href="">诺太简历</a></li>
+							<li><a href="">企业文化</a></li>
+							<li><a href="">公司新闻</a></li>
+							<li><a href="">组织机构</a></li>
+							<li><a href="">合作伙伴</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="./product.html">产品中心</a>
+						<ul>
+							<li><a href="">手性化合物</a></li>
+							<li><a href="">含氟化合物</a></li>
+							<li><a href="">杂环化合物</a></li>
+							<li><a href="">其它化合物</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="./customized.html">研发服务</a>
+						<ul>
+							<li><a href="">服务流程</a></li>
+							<li><a href="">工艺研发</a></li>
+							<li><a href="">定制合成</a></li>
+							<li><a href="">协议生产</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="./responsibility.html">社会责任</a>
+						<ul>
+							<li><a href="">CSR方针</a></li>
+							<li><a href="">EHS 体系</a></li>
+							<li><a href="">质量管理</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="./recruit.html">人才招聘</a>
+						<ul>
+							<li><a href="">用人理念</a></li>
+							<li><a href="">招聘岗位</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="./contact.html">联系我们</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="about-top">
+		<img class="img-responsive" src="images/about-top.jpg" />
+	</div>
+	<div class="about-body">
+		<div class="about-body-left text-center">
+			<div class="about-left-title">产品展示</div>
+			<ul class="list-group ">
+				<li class="list-group-item"><a href="#">原材料</a></li>
+				<li class="list-group-item"><a href="#">中间体</a></li>
+				<li class="list-group-item"><a href="#">精细化工品</a></li>
+			</ul>
+		</div>
+		<div class="about-body-right">
+			<div class="about-right-title">
+				<h2>主打产品</h2>
+				<div class="guide">
+					你现在的位置：<a href="#">首页</a> > <a href="#">产品展示</a> > <a href="#">主打产品</a>
+				</div>
+			</div>
+			<div class="prod-details">
+				<div class="prod-sou">
+					<form class="form-horizontal">
+						<div class="form-group">
+							<input type="email" class="form-control" style="width: 300px; float: left; margin-right: 15px;" id="inputEmail3" placeholder="按中英文名称或CAS号或产品编码搜索">
+							<button type="submit" class="btn btn-primary">立即搜索</button>
+						</div>
+					</form>
+				</div>
+				<div class="prod-shuju">
+					<div class="prod-img">
+						<img class="img-responsive" src="images/product01.jpg" alt="">
+					</div>
+					<div class="prod-cans">
+						<div class="prod-cans-title">
+							<h2>Dutetrabenazine</h2>
+							<h4>Secondary text</h4>
+						</div>
+						<ul>
+							<li>CAS# : 503612-47-3</li>
+							<li>产品编码：YPA0001</li>
+							<li>研发情况：工艺研究完成</li>
+						</ul>
+					</div>
+				</div>
+				<div class="intermediate-model">
+					<div class="intermediate-title">
+						<h4>相关中间体</h4>
+					</div>
+					<div class="intermediate-tab ">
+						<table class="table table-bordered ">
+							<tr>
+								<th>产品编号</th>
+								<th>英文名称</th>
+								<th>中文名称</th>
+								<th>CAS</th>
+								<th>结构式</th>
+							</tr>
+							<tr>
+								<td style="width: 80px;">RB3585</td>
+								<td style="width: 180px;">	
+									9,10-dihydroxy-3-isobutyl-3,4,6,7-tetrahydro-1H-pyrido[2,1-a]isoquinolin-2(11bH)-one
+								</td>
+								<td style="width: 140px;">
+									9,10-二羟基-3-异丁基-3,4,6,7-四氢-1H-吡啶[2,1-a]异喹啉-2(11bH)-酮
+								</td>
+								<td>89929-27-1</td>
+								<td>
+									<img class="img-responsive" src="images/product01.jpg" alt="">
+								</td>
+							</tr>
+							<tr>
+								<td style="width: 80px;">RB3585</td>
+								<td style="width: 180px;">	
+									9,10-dihydroxy-3-isobutyl-3,4,6,7-tetrahydro-1H-pyrido[2,1-a]isoquinolin-2(11bH)-one
+								</td>
+								<td style="width: 140px;">
+									9,10-二羟基-3-异丁基-3,4,6,7-四氢-1H-吡啶[2,1-a]异喹啉-2(11bH)-酮
+								</td>
+								<td>89929-27-1</td>
+								<td>
+									<img class="img-responsive" src="images/product01.jpg" alt="">
+								</td>
+							</tr>
+							<tr>
+								<td style="width: 80px;">RB3585</td>
+								<td style="width: 180px;">	
+									9,10-dihydroxy-3-isobutyl-3,4,6,7-tetrahydro-1H-pyrido[2,1-a]isoquinolin-2(11bH)-one
+								</td>
+								<td style="width: 140px;">
+									9,10-二羟基-3-异丁基-3,4,6,7-四氢-1H-吡啶[2,1-a]异喹啉-2(11bH)-酮
+								</td>
+								<td>89929-27-1</td>
+								<td>
+									<img class="img-responsive" src="images/product01.jpg" alt="">
+								</td>
+							</tr>
+						</table>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+	<div class="archives text-center">
+		Copyright © Ganolix Lifescience Co., Limited. All rights reservd 上海诺太医药科技有限公司 版权所有
+	</div>
+	<script src="js/jquery-3.3.1.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/home.js"></script>
+</body>
+</html>
